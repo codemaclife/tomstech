@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact me</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./about.html">About</a>
+        <a href="/contact.html">Contact</a>
+       </nav>
+       
+       <p> Feel free to get in contact with me.
+        Please specify what gaming platform you are playing,
+         so i can answer your query more directly.
+       </p>
+       <!-- code for contact form -->
+
+        <div class="container">
+            <Form action="action_page.php">
+
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your First name..">
+
+                <label for="lname">Last Name (Optional)</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="gamingplatform">Gaming platform</label>
+                <select id="gamingplatform" name="gamingplatform">
+                    <option value="playstation">Playstation</option>
+                    <option value="xbox">Xbox series S/X</option>
+                    <option value="switch"> Nintendo switch</option>
+                    <option value="pc">Pc</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write somthing...." style="200px"></textarea>
+            </Form>
+        </div>
+</body>
+</html>
